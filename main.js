@@ -9,4 +9,10 @@ document.addEventListener('DOMContentLoaded',function(){
         output.innerText= name.value;
         output2.innerHTML = name.value;
     },false)
+    document.getElementById('container').addEventListener("click",function(){
+
+        let itemA = document.getElementById('container').children;
+        let itemB = itemA[0];
+        window.alert(itemB);
+    })
 })

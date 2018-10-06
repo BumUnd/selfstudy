@@ -40,4 +40,4 @@ document.addEventListener('DOMContentLoaded',function(){
         let itemB = itemA[0];
         window.alert(itemB);
     })
-})
+});
